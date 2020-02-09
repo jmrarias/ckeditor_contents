@@ -3,7 +3,7 @@ CKEditor Table of Contents
 
 Description
 ===========
-This module enables the Table of Contents plugin from CKEditor.com in your WYSIWYG.
+This module enables the Table of Contents plugin from CKEditor.com.
 This plugin adds a simple Table of Contents widget which crawls the content for
 Heading-Tags (<h1>, ... ,<h6>) and adds Anchor tags to headings.
 
@@ -18,7 +18,8 @@ Installation
 2. Place the plugin in the root libraries folder (/libraries).
 3. Enable CKEditor Accessibility Checker module in the Drupal admin.
 
-With composer add the following to your repositories then `composer require ckeditor/contents`
+With composer add the following to your repositories
+then `composer require ckeditor/contents`
 ```
 "ckeditor.contents": {
   "type": "package",

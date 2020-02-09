@@ -1,10 +1,5 @@
 <?php
 
-/**
- * @file
- * Contains \Drupal\ckeditor_contents\Plugin\CKEditorPlugin\ContentsPlugin.
- */
-
 namespace Drupal\ckeditor_contents\Plugin\CKEditorPlugin;
 
 use Drupal\ckeditor\CKEditorPluginBase;
@@ -20,14 +15,13 @@ use Drupal\editor\Entity\Editor;
  */
 class ContentsPlugin extends CKEditorPluginBase {
 
-
   /**
    * {@inheritdoc}
    */
   public function getButtons() {
     return [
       'Contents' => [
-        'label' => t('Add Table of Contents'),
+        'label' => $this->t('Add Table of Contents'),
         'image' => 'libraries/contents/icons/contents.png',
       ],
     ];
