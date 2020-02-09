@@ -33,7 +33,7 @@ class ContentsPlugin extends CKEditorPluginBase {
   public function getFile() {
     // Make sure that the path to the plugin.js matches the file structure of
     // the CKEditor plugin you are implementing.
-    return base_path() . 'libraries/contents/plugin.js';
+    return 'libraries/contents/plugin.js';
   }
 
   /**
